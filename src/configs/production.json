@@ -1,0 +1,18 @@
+{
+    "env": "production",
+    "dbConfig": {
+        "host": "localhost",
+        "user": "postgres",
+        "password": "root",
+        "database": "movies_rating"
+    },
+    "secretKey": "UkFL7o7A2Wd3Sx6bfqzBjx7vc9uNgCPX",
+    "log": {
+        "format": "combined",
+        "dir": "../logs"
+    },
+    "cors": {
+        "origin": "your.domain.com",
+        "credentials": true
+    }
+}
